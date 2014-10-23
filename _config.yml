@@ -1,0 +1,10 @@
+baseurl:  /madison
+permalink: pretty
+markdown: kramdown
+paginate: 5
+repo: madison
+github_org: maptime
+maptime:
+  chapter: Maptime Madison
+  twitter: MaptimeMadison
+  #disqus: YOUR DISQUS USERNAME
