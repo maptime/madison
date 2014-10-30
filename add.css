@@ -9,3 +9,11 @@ a.titlechange {
 .fill-lighten {
 	background-color: rgba(255, 255, 255, 0.3);
 }
+
+.fill-orange2{
+	background-color:#F2A113;
+	color: #fff;
+	padding: 4em;
+
+
+}
