@@ -11,8 +11,11 @@ Events will be hosted in the Madison downtown area - locations and times will be
 Happy Mapping and we hope to see you at an event!
 
 ###Organizers
-Katie Kowalsky, [@KatieKowalsky](https://twitter.com/KatieKowalsky)<br>
-Rashauna Mead, [@RashaunaMead](https://twitter.com/RashaunaMead)<br>
-Robin Tolochko, [@ToloMaps](https://twitter.com/ToloMaps)
+Katie Kowalsky, [@KatieKowalsky](https://twitter.com/KatieKowalsky)  
+Rashauna Mead, [@RashaunaMead](https://twitter.com/RashaunaMead)  
+Robin Tolochko, [@ToloMaps](https://twitter.com/ToloMaps)  
 
+###Contact
+Twitter: [@MaptimeMadison](https://twitter.com/MaptimeMadison)  
+Email: <maptimemadison@gmail.com>  
 ![maptime logo](img/xmaptime-logo-web-header.png)
