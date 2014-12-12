@@ -1,8 +1,15 @@
 header{
 	background-image: url('./img/mad_header.png');
 }
+h2{
+	color: #652e8e;
+}
 
-a.titlechange {
+h3{
+	color: #f2a113;
+}
+
+ a.titlechange {
 	color: #652e8e;
 
 }
@@ -16,4 +23,12 @@ a.titlechange {
 	padding: 4em;
 
 
+}
+
+.fill-orange2 h1,.fill-orange2  h2 ,.fill-orange2 h3{
+	color: #fff;
+}
+
+.fill-purple h1,.fill-purple h2,.fill-purple h3{
+	color: #fff;
 }
