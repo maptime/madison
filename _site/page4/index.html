@@ -1,0 +1,193 @@
+<!DOCTYPE html >
+<html>
+<head>
+  <meta charset='UTF-8'/>
+  <meta name='twitter:site' content='@MaptimeMadison' />
+  <meta property='og:site_name' content='Maptime Madison' />
+  <meta name='twitter:url' content='' />
+  <meta property='og:url' content='' />
+  <meta name='twitter:title' content='' />
+  <meta property='og:title' content='' />
+  <meta name='twitter:description' content='{% for item in paginator.posts %} &amp;lt;div class=&#39;space-bottom4&#39;&amp;gt; {% if item.category == ‘event’ %} &amp;lt;h2&amp;gt;&amp;lt;a href=&#39;{{site.baseurl}}{{item.url}}&#39;&amp;gt;{{item.title}}&amp;lt;/a&amp;gt;&amp;lt;/h2&amp;gt; {{item.content}} &amp;lt;div class=&#39;keyline-all round pad2 col12 clearfix&#39;&amp;gt; &amp;lt;div class=&#39;col8 pad0y&#39;&amp;gt; Join us: &amp;lt;span class=&#39;quiet&#39;&amp;gt;{{item.date...' />
+  <meta property='og:description' content='{% for item in paginator.posts %} &amp;lt;div class=&#39;space-bottom4&#39;&amp;gt; {% if item.category == ‘event’ %} &amp;lt;h2&amp;gt;&amp;lt;a href=&#39;{{site.baseurl}}{{item.url}}&#39;&amp;gt;{{item.title}}&amp;lt;/a&amp;gt;&amp;lt;/h2&amp;gt; {{item.content}} &amp;lt;div class=&#39;keyline-all round pad2 col12 clearfix&#39;&amp;gt; &amp;lt;div class=&#39;col8 pad0y&#39;&amp;gt; Join us: &amp;lt;span class=&#39;quiet&#39;&amp;gt;{{item.date...' />
+  
+  <title>Maptime Madison | </title>
+  <link rel='stylesheet' href='/madison/site.css' type='text/css'/>
+  <link rel='stylesheet' href='/madison/add.css' type='text/css'/>
+  <link rel='shortcut icon' href='/madison/img/favicon.png' type='image/x-icon' />
+  <script src='https://api.tiles.mapbox.com/mapbox.js/v1.6.3/mapbox.js'></script>
+  <link href='https://api.tiles.mapbox.com/mapbox.js/v1.6.3/mapbox.css' rel='stylesheet' />
+</head>
+<body>
+  <div class='masthead fill-blue'>
+    <div class='fill-darken0 pad1y strong dark'>
+      <div class='limiter'>
+        <a href='http://maptime.io/'>maptime.io</a>
+      </div>
+    </div>
+  </div>
+  <header class='fill-blue'>
+    <div class='limiter contain'>
+      <a href='/madison/' class='sprite maptime pin-left'>Maptime</a>
+      <div class='col12 clearfix pad2y'>
+        <div class='round pad2 col6 margin6 strong dark fill-darken0 fill-chapter row4 truncate contain'>
+          <h1><a class='dark contain z1 titlechange' href='/madison/'>Maptime Madison</a></h1>
+          <div class='pin-right pad4x pad1y hide-mobile'>
+            <span class='sprite marker'></span>
+          </div>
+          <a href='https://twitter.com/MaptimeMadison/' class='contain z1 fill-blue button'>
+            @MaptimeMadison on Twitter
+          </a>
+        </div>
+      </div>
+    </div>
+  </header>
+  <div class='limiter pad4y'>
+    <div class='col12 clearfix'>
+      <aside class='col3 fr space-bottom2 sidebar'>
+        <div class='fill-purple strong dark round pad2 space-bottom2'>
+          <h3>The next Maptime Madison is:</h3>
+          <div id='rsvpdate'></div>
+        </div>
+
+     
+
+
+        <div class='hide-mobile'>
+          <div class='popup-group'>
+            <a href='https://github.com/maptime/madison/' class='col12 space-bottom2 button'>Watch these events</a>
+            <div class='popup popup-big keyline-all pad1 small round'>
+              <ol class='space-bottom1'>
+                <li>1. Click the <strong>Watch these events</strong> button.</li>
+                <li>2. Login to GitHub or signup for an account.</li>
+                <li>3. Click the <strong>Watch</strong> button on the repo.</li>
+              </ol>
+              <div class='center'>
+                <img src='/madison/img/watchrepo.png' alt='Watch repo' />
+              </div>
+            </div>
+          </div>
+
+          <div class='followers'></div>
+          <div class='center'>
+            <div class='pad0y space-bottom2'>
+              <a class='small' href='https://github.com/maptime/madison/watchers'>View all</a>
+            </div>
+          </div>
+        </div>
+
+           <div class='mailchimp'>
+
+          <!-- Begin MailChimp Signup Form -->
+          <link href="//cdn-images.mailchimp.com/embedcode/classic-081711.css" rel="stylesheet" type="text/css">
+          <style type="text/css">
+            #mc_embed_signup{background:#fff; clear:left; font:14px Helvetica,Arial,sans-serif; }
+            /* Add your own MailChimp form style overrides in your site stylesheet or in this style block.
+               We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
+          </style>
+          <div id="mc_embed_signup">
+          <form action="//maptime.us9.list-manage.com/subscribe/post?u=26581a1c8158241b756cfe3fb&amp;id=8f0853cdaa" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate fill-orange2 dark round pad2 space-bottom2 " target="_blank" novalidate>
+              <div id="mc_embed_signup_scroll">
+            <h2 class="">Subscribe to Maptime Madison's mailing list</h2>
+          <div class="mc-field-group">
+            <label for="mce-EMAIL">Email Address  <span class="asterisk">*</span>
+          </label>
+            <input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL">
+          </div>
+          <div class="mc-field-group">
+            <label for="mce-FNAME">First Name </label>
+            <input type="text" value="" name="FNAME" class="" id="mce-FNAME">
+          </div>
+          <div class="mc-field-group">
+            <label for="mce-LNAME">Last Name </label>
+            <input type="text" value="" name="LNAME" class="" id="mce-LNAME">
+          </div>
+            <div id="mce-responses" class="clear">
+              <div class="response" id="mce-error-response" style="display:none"></div>
+              <div class="response" id="mce-success-response" style="display:none"></div>
+            </div>    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+              <div style="position: absolute; left: -5000px;"><input type="text" name="b_26581a1c8158241b756cfe3fb_8f0853cdaa" tabindex="-1" value=""></div>
+              <div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class=" button "></div>
+              </div>
+          </form>
+          </div>
+          <script type='text/javascript' src='//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script><script type='text/javascript'>(function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[0]='EMAIL';ftypes[0]='email';fnames[1]='FNAME';ftypes[1]='text';fnames[2]='LNAME';ftypes[2]='text';}(jQuery));var $mcj = jQuery.noConflict(true);</script>
+          <!--End mc_embed_signup-->
+        </div>
+      </aside>
+
+      <div class='col8 margin2r prose content'>
+        <!-- This loops through the paginated posts -->
+
+<div class='space-bottom4'>
+
+  
+
+    <h2><a href='/madison/2014/10/19/Maptime_Madison/'>Welcome to Maptime Madison!</a></h2>
+    <p>Maptime Madison is a monthly meetup for anyone that wants to learn about and make maps. People with all levels of mapping experience are encouraged to join. <a href="http://www.maptime.io/">Maptime</a> is a place for learning and a time to work collaboratively on mapping projects. </p>
+
+<p>Events will be hosted in the Madison downtown area - locations and times will be posted to this site.  If you have any suggestions about Maptime Madison or want to get involved let us know <a href="https://twitter.com/MaptimeMadison">@MaptimeMadison</a> or shoot us an email at maptimemadison@gmail.com.</p>
+
+<p>Happy Mapping and we hope to see you at an event!</p>
+
+<h3 id="organizers">Organizers</h3>
+<p>Katie Kowalsky, <a href="https://twitter.com/KatieKowalsky">@KatieKowalsky</a><br />
+Rashauna Mead, <a href="https://twitter.com/RashaunaMead">@RashaunaMead</a><br />
+Robin Tolochko, <a href="https://twitter.com/ToloMaps">@ToloMaps</a>  </p>
+
+<h3 id="contact">Contact</h3>
+<p>Twitter: <a href="https://twitter.com/MaptimeMadison">@MaptimeMadison</a><br />
+Email: <a href="&#109;&#097;&#105;&#108;&#116;&#111;:&#109;&#097;&#112;&#116;&#105;&#109;&#101;&#109;&#097;&#100;&#105;&#115;&#111;&#110;&#064;&#103;&#109;&#097;&#105;&#108;&#046;&#099;&#111;&#109;">&#109;&#097;&#112;&#116;&#105;&#109;&#101;&#109;&#097;&#100;&#105;&#115;&#111;&#110;&#064;&#103;&#109;&#097;&#105;&#108;&#046;&#099;&#111;&#109;</a><br />
+<img src="img/xmaptime-logo-web-header.png" alt="maptime logo" /></p>
+
+    <div class='pad1y keyline-top'>
+      <strong class='quiet small block space-bottom1'>Posted Oct 19 2014 by Rashauna & Katie</strong>
+    </div>
+
+  
+</div>
+
+
+<!-- Pagination links -->
+<div class='col12 center small strong space pad2y'>
+  
+    
+      <a href='/madison/page3' class='button fill-blue icon left-arrow'>Newer</a>
+    
+  
+  
+</div>
+
+
+      </div>
+    </div>
+  </div>
+
+  <footer class='fill-light pad2y'>
+    <div class='limiter center small quiet'>
+      <p>This website is <a href='http://github.com/maptime/madison/'>open source</a> and you can improve it. Learn more about contributing <a href='https://guides.github.com/activities/forking/'>here</a>.</p>
+   </div>
+  </footer>
+
+<script src='/madison/js/jquery.min.js'></script>
+<script src='/madison/js/underscore.min.js'></script>
+<script src='/madison/site.js'></script>
+<script>
+  var rsvp = document.getElementById('rsvpdate');
+  var date,formatted,link;
+  ''
+    date = '2016,2,29';
+    formatted = 'Monday, Feb 29 2016';
+    link = 'https://www.eventbrite.com/e/making-easy-google-maps-with-custom-data-tickets-21291202560?aff=es2';
+  ''
+
+  if (date && new Date().getTime() <= new Date(date).getTime() + (24 * 60 * 60 * 1000)) {
+    rsvp.innerHTML = '<h3>' + formatted + '</h3>' +
+    '<a class="button fill-orange block" href=' + link + '>RSVP</a>';
+  } else {
+    rsvp.innerHTML = '<h3>TBA</h3>';
+  }
+</script>
+
+</body>
+</html>
