@@ -1,7 +1,7 @@
 baseurl:  /madison
 permalink: pretty
 markdown: kramdown
-paginate: 5
+paginate: 10
 repo: madison
 github_org: maptime
 maptime:
