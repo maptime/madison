@@ -8,5 +8,6 @@ maptime:
   chapter: Maptime Madison
   twitter: MaptimeMadison
   #disqus: YOUR DISQUS USERNAME
+future: true
 gems:
   - jekyll-feed
