@@ -9,5 +9,3 @@ maptime:
   twitter: MaptimeMadison
   #disqus: YOUR DISQUS USERNAME
 future: true
-gems:
-  - jekyll-feed
